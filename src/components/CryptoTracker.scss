@@ -1,0 +1,88 @@
+
+
+$primary-color: #f0b90b;
+$background-color: #121212;
+$card-background-color: #1e1e1e;
+$text-color: #e3e3e3;
+$positive-color: #00c805;
+$negative-color: #e74c3c;
+
+.crypto-tracker {
+  font-family: Arial, sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 100%;
+  margin: 0 auto;
+
+  @media(min-width: 600px) {
+    padding: 20px;
+  }
+
+  h1 {
+    color: $primary-color;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .crypto-list {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      background-color: $card-background-color;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #333;
+      transition: transform 0.2s;
+
+      &:hover {
+        transform: scale(1.02);
+      }
+
+      @media(min-width: 600px) {
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .crypto-details {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+          margin: 0;
+          font-size: 1.2em;
+          color: $primary-color;
+        }
+
+        .crypto-price {
+          font-size: 1.5em;
+          font-weight: bold;
+          color: $positive-color;
+        }
+
+        p {
+          margin: 5px 0;
+        }
+      }
+
+      .crypto-change {
+        font-size: 1em;
+
+        &.positive {
+          color: $positive-color;
+        }
+
+        &.negative {
+          color: $negative-color;
+        }
+      }
+    }
+  }
+}
