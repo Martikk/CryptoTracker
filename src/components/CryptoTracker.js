@@ -19,7 +19,7 @@ const CryptoTracker = () => {
           params: {
             vs_currency: 'usd', // Fetching prices in USD
             order: 'market_cap_desc', // Ordering by market capitalization in descending order
-            per_page: 10, // Limiting to 10 cryptocurrencies per page
+            per_page: 20, // Limiting to 10 cryptocurrencies per page
             page: 1, // Fetching the first page
             sparkline: false, // Disabling sparkline data
           },

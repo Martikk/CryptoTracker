@@ -83,3 +83,24 @@ cryptotracker/
 4.Push to the branch (git push origin feature/new-feature)
 
 4.Open a pull request
+
+## Acknowledgments
+- Inspiration from the Binance design
+- Thanks to CoinGecko for their awesome API
+
+
+### Explanation of Sections:
+- **Project Title and Description**: Briefly describe what the project is and its purpose.
+- **Features**: List key features of the project.
+- **Demo**: Provide a link to a live demo if available.
+- **Screenshots**: Add screenshots to visually represent the project.
+- **Getting Started**: Instructions to set up the project locally.
+- **Prerequisites**: List any software or tools required to run the project.
+- **Installation**: Detailed steps to install dependencies and run the project.
+- **Project Structure**: Outline the directory structure of the project.
+- **Built With**: List major libraries and tools used in the project.
+- **Contributing**: Guidelines for contributing to the project.
+- **License**: Information about the project’s license.
+- **Acknowledgments**: Mention any inspirations or acknowledgments related to the project.
+
+Feel free to adjust the content according to your specific project details and preferences.
