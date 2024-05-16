@@ -61,7 +61,7 @@ cryptotracker/
 ├── README.md
 └── ...
 ```
-## "positive" or "negative" classes comes from the conditional rendering in your JSX
+## Classes "positive" or "negative" comes from the conditional rendering in JSX
 ```
 <div className={`crypto-change ${crypto.price_change_percentage_24h >= 0 ? 'positive' : 'negative'}`}>
   {crypto.price_change_percentage_24h.toFixed(2)}%
