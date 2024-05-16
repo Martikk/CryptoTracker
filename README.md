@@ -12,9 +12,6 @@ CryptoTracker is a React application that fetches and displays the current price
 
 You can view a live demo of the application [here](#).
 
-## Screenshots
-
-![CryptoTracker Screenshot](path/to/screenshot.png)
 
 ## Getting Started
 
@@ -64,7 +61,12 @@ cryptotracker/
 ├── README.md
 └── ...
 ```
-
+## "positive" or "negative" classes comes from the conditional rendering in your JSX
+```
+<div className={`crypto-change ${crypto.price_change_percentage_24h >= 0 ? 'positive' : 'negative'}`}>
+  {crypto.price_change_percentage_24h.toFixed(2)}%
+</div>
+```
 ## Built With
 
 - [React](https://react.dev/) - A JavaScript library for building user interfaces
